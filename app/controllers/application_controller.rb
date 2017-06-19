@@ -3,4 +3,5 @@ class ApplicationController < ActionController::Base
 
   def hello
     render html: "Hello World V3"
+  end
 end
